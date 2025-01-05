@@ -22,6 +22,11 @@ public class Produto {
     @Column(name = "preco" )
     private double preco;
 
+//    private final String NOTFOUND = "produto não encontrado";
+//
+//    public String getNOTFOUND() {
+//        return NOTFOUND;
+//    }
 
     public String getId() {
         return id;
